@@ -15,7 +15,7 @@ st.write(
 )
 
 #Import the diabetes dataset
-df = pd.read_csv('https://github.com/Harsh5chal/Diabetes-Detection/blob/e8c1a38650c5e21a22686302fcbd5785ec8d190d/pima-indians-diabetes.data', header=None)
+df = pd.read_csv('https://raw.githubusercontent.com/Harsh5chal/Diabetes-Detection/main/pima-indians-diabetes.data', header=None)
 
 #Set a subheader
 st.subheader('Data Information:')
