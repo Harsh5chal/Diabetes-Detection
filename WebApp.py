@@ -9,13 +9,13 @@ import streamlit as st
 #Create a title and sub title
 st.write(
     """
-    # Diabetes Detection
-    Detects if someone has diabetes in inida using machine learning and python !
+    # Diabetes Detection for Indians
+    Detects if someone has diabetes in inida using Machine Learning and Python !
     """
 )
 
 #Import the diabetes dataset
-df = pd.read_csv('https://github.com/Harsh5chal/Diabetes-Detection/blob/main/pima-indians-diabetes.data', header=None)
+df = pd.read_csv('https://github.com/Harsh5chal/Diabetes-Detection/blob/e8c1a38650c5e21a22686302fcbd5785ec8d190d/pima-indians-diabetes.data', header=None)
 
 #Set a subheader
 st.subheader('Data Information:')
