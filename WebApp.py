@@ -10,7 +10,7 @@ import streamlit as st
 st.write(
     """
     # Diabetes Detection for Indians
-    Detects if someone has diabetes in inida using Machine Learning and Python !
+    Detects if someone has diabetes in india using Machine Learning and Python !
     """
 )
 
